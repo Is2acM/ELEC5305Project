@@ -1,5 +1,5 @@
 # ELEC5305 Research Project
-These are the codes for ELEC5305 Research Project, Speaker Gender Recognition Using Vision Transformer. The ViT network used for training with fully connected layers added. The ViT is pretrained on IMAGENET1K by Google, and we fine-tunned and trained the added layers with provided dataset to meet our expectations. The fianl result is with 98.6% accuracy with the use of Mel-Spectrogram on validation sets. The experimental results can be downloaded from the [Google Drive link](https://drive.google.com/drive/folders/11_gHYqFKZwlZn7WNTZ0NAOPoL7Zrwrbi?usp=sharing).
+These are the codes for ELEC5305 Research Project, Speaker Gender Recognition Using Vision Transformer. The ViT network used for training is with two fully connected layers added. The ViT is pretrained on IMAGENET1K by Google, and I fine-tunned and trained the added layers with provided dataset to meet our expectations. The fianl result is with 98.6% accuracy with the use of Mel-Spectrogram on validation sets. The experimental results can be downloaded from the [Google Drive link](https://drive.google.com/drive/folders/11_gHYqFKZwlZn7WNTZ0NAOPoL7Zrwrbi?usp=sharing).
 
 ## File Structures
 main.py: This is the script for training the and evaluating the network
