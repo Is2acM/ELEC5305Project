@@ -1,0 +1,32 @@
+2023-11-07 11:19:25,808 using args:
+2023-11-07 11:19:25,808 {'cuda': True, 'mps': False, 'epochs': 20}
+2023-11-07 11:19:25,808 Computation device: cuda
+
+2023-11-07 11:19:25,966 CNNModel(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+  (leaky_relu): LeakyReLU(negative_slope=0.1)
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (dropout1): Dropout(p=0.25, inplace=False)
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (fc1): Linear(in_features=186624, out_features=128, bias=True)
+  (dropout2): Dropout(p=0.1, inplace=False)
+  (fc2): Linear(in_features=128, out_features=2, bias=True)
+)
+2023-11-07 11:19:51,355 using args:
+2023-11-07 11:19:51,355 {'cuda': True, 'mps': False, 'epochs': 20}
+2023-11-07 11:19:51,355 Computation device: cuda
+
+2023-11-07 11:19:51,506 CNNModel(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+  (leaky_relu): LeakyReLU(negative_slope=0.1)
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (dropout1): Dropout(p=0.25, inplace=False)
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (fc1): Linear(in_features=186624, out_features=128, bias=True)
+  (dropout2): Dropout(p=0.1, inplace=False)
+  (fc2): Linear(in_features=128, out_features=2, bias=True)
+)
+2023-11-07 11:20:16,155 Total training time: 24.65 seconds
+2023-11-07 11:20:16,155 Training loss: 0.114, training acc: 96.181
+2023-11-07 11:20:16,156 Validation loss: 0.151, validation acc: 95.468
+2023-11-07 11:20:16,505 TRAINING COMPLETE

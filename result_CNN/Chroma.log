@@ -1,0 +1,18 @@
+2023-11-09 16:07:02,348 using args:
+2023-11-09 16:07:02,348 {'cuda': True, 'epochs': 20}
+2023-11-09 16:07:02,348 Computation device: cuda
+
+2023-11-09 16:07:02,635 CNNModel(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
+  (leaky_relu): LeakyReLU(negative_slope=0.1)
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (dropout1): Dropout(p=0.25, inplace=False)
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (fc1): Linear(in_features=186624, out_features=128, bias=True)
+  (dropout2): Dropout(p=0.1, inplace=False)
+  (fc2): Linear(in_features=128, out_features=2, bias=True)
+)
+2023-11-09 16:07:29,143 Total training time: 26.51 seconds
+2023-11-09 16:07:29,143 Training loss: 0.000, training acc: 100.000
+2023-11-09 16:07:29,143 Validation loss: 0.310, validation acc: 92.708
+2023-11-09 16:07:29,865 TRAINING COMPLETE
