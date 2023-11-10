@@ -18,7 +18,7 @@ dataexplore.ipynb: This is a notebook file which being used for data exploration
 
 
 ## Dataset
-The Dataset being used for this project is the RAVDESS, and here is the [download link](https://zenodo.org/record/1188976) for the original datasets. The processed data set can be downloaded from the [Google Drive link](https://drive.google.com/drive/folders/11_gHYqFKZwlZn7WNTZ0NAOPoL7Zrwrbi?usp=sharing) as well. The RAVDESS dataset is with description as shown below:
+The Dataset being used for this project is the RAVDESS, and here is the [download link](https://zenodo.org/record/1188976) for the original datasets. The original dataset needs to be processed with the use dataexplore.ipynb for training. The RAVDESS dataset is with description as shown below:
 
 ```bibtex
 Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
