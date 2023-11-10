@@ -64,7 +64,7 @@ line 123: # device = 'mps' # Uncomment this if running on Mac
 ```
 **Note**: This is not tested and may cause error on running the code. To ensure that the program can be run properly, please use CPU for running the program instead. 
 
-To test the CNN and ResNet50, please modified the import of network in main.py. To use anther audio feature for training, please edit the dataset.py and change the file path to the corresponds folder.
+To test the CNN and ResNet50, please modified the import of network in main.py. To use anther audio feature for training, please edit the **dataset.py** and change the file path to the corresponds folder.
 ```bibtex
 ## Uncomment to decide which network to train
 ## Import Resnet50 structure
