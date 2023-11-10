@@ -9,7 +9,7 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
 
 # Specify dataset directory
-rootdir = './Mel'
+rootdir = './Mel' # audio feature file directory
 traindir = os.path.join(rootdir, 'train')
 valdir = os.path.join(rootdir, 'val')
 
