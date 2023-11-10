@@ -47,7 +47,7 @@ net = net.load_state_dict(torch.load(model_name))
 
 ## Run the training code
 
-
+Before running the main script, please ensure that the google_vit_pretrained.pth file has been downloaded and be placed in the same directory as the python scripts. 
 For the training of network, the code provides training options on either CPU or GPU. For this project, the network is trained with commands: 
 ```bibtex
 >> python main.py --cuda -e 20
